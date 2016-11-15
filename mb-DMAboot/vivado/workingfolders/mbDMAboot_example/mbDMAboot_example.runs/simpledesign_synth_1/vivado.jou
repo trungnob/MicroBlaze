@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4_AR65813_AR64601_AR63880_AR63479_AR62969_(AR63524_AR64594) (64-bit)
+# SW Build (by xbuild) on Tue May 19 17:22:27 MDT 2015
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Wed Feb 10 13:33:11 2016
+# Process ID: 6648
+# Log file: C:/Users/trtran/project_2/project_2.runs/simpledesign_synth_1/simpledesign.vds
+# Journal file: C:/Users/trtran/project_2/project_2.runs/simpledesign_synth_1\vivado.jou
+#-----------------------------------------------------------
+source simpledesign.tcl

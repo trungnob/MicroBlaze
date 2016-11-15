@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+
+<nifamily familyname="UART Driver" displayname="UART Driver">
+</nifamily>
+</nicomment>
+<nierror code="-8900">
+Timeout expired before the operation completed.
+</nierror>
+<nierror code="-8899">
+The specified Number of Ports is greater than the Number of UART ports available.
+</nierror>
+<nierror code="-8898">
+Timeout expired before the UART Initialization operation completed.
+</nierror>
+<nierror code="-8897">
+Timeout expired before the read operation completed.
+</nierror>
+<nierror code="-8896">
+The specified Number of Ports must be greater than 0.
+</nierror>
+</nidocument>

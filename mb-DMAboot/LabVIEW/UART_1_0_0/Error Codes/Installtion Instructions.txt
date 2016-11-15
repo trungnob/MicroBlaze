@@ -1,0 +1,6 @@
+Error Code Installation
+
+1.  Place UART-errors.txt in \\LabVIEW \user.lib\errors
+2.  Restart LabVIEW
+
+NOTE: Any time a new error code is added to error\ _____.txt file, you will need to restart LabVIEW in order for the change to be present.

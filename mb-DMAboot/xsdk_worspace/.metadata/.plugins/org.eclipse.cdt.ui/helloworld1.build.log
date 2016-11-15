@@ -1,0 +1,21 @@
+13:30:54 **** Auto Build of configuration Debug for project helloworld1 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../helloworld1_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.4 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: helloworld1.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../helloworld1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.4 -mxl-soft-mul -Wl,--no-relax -o "helloworld1.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: helloworld1.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size helloworld1.elf  |tee "helloworld1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3324	    288	   3124	   6736	   1a50	helloworld1.elf
+'Finished building: helloworld1.elf.size'
+' '
+
+13:30:55 Build Finished (took 780ms)
+

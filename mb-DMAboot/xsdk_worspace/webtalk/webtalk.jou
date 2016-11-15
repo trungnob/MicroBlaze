@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# 
+# Start of session at: Wed Feb 10 22:15:31 2016
+# Process ID: 12252
+# Current directory: C:/pe/user/trtran/MicroblazeProject/Examples/mb-DMAboot/xsdk_worspace/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/pe/user/trtran/MicroblazeProject/Examples/mb-DMAboot/xsdk_worspace/webtalk/webtalk.log
+# Journal file: C:/pe/user/trtran/MicroblazeProject/Examples/mb-DMAboot/xsdk_worspace/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

@@ -1,0 +1,13 @@
+UART Version 1.0.0
+Last Updated 6-7-13
+
+Whats New:
+
+Requirements:
+LabVIEW 2012
+LabVIEW FPGA 2012 - if you want to modify the FPGA source code
+
+Known Issues:
+
+Bug Fixes:
+
