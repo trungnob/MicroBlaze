@@ -1,13 +1,13 @@
-Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
-----------------------------------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2014.4_AR65813_AR64601_AR63880_AR63479_AR62969_(AR63524_AR64594) (win64) Build 0 Tue May 19 17:22:27 MDT 2015
-| Date         : Wed Feb 10 13:37:55 2016
-| Host         : lvd-tnt running 64-bit Service Pack 1  (build 7601)
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4_AR66782_AR66772_AR66092_AR65813 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
+| Date         : Wed Mar 29 12:42:24 2017
+| Host         :  running 64-bit major release  (build 9200)
 | Command      : report_utilization -file simpledesign_utilization_synth.rpt -pb simpledesign_utilization_synth.pb
 | Design       : simpledesign
-| Device       : xc7k410t
+| Device       : 7k410tffg900-2
 | Design State : Synthesized
-----------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
 
 Utilization Design Information
 
@@ -30,16 +30,16 @@ Table of Contents
 +----------------------------+------+-------+-----------+-------+
 |          Site Type         | Used | Fixed | Available | Util% |
 +----------------------------+------+-------+-----------+-------+
-| Slice LUTs*                | 2050 |     0 |    254200 |  0.80 |
-|   LUT as Logic             | 1847 |     0 |    254200 |  0.72 |
+| Slice LUTs*                | 2005 |     0 |    254200 |  0.79 |
+|   LUT as Logic             | 1802 |     0 |    254200 |  0.71 |
 |   LUT as Memory            |  203 |     0 |     90600 |  0.22 |
 |     LUT as Distributed RAM |   64 |     0 |           |       |
 |     LUT as Shift Register  |  139 |     0 |           |       |
-| Slice Registers            | 6885 |     0 |    508400 |  1.35 |
-|   Register as Flip Flop    | 6884 |     0 |    508400 |  1.35 |
+| Slice Registers            | 6894 |     0 |    508400 |  1.36 |
+|   Register as Flip Flop    | 6893 |     0 |    508400 |  1.36 |
 |   Register as Latch        |    0 |     0 |    508400 |  0.00 |
 |   Register as AND/OR       |    1 |     0 |    508400 | <0.01 |
-| F7 Muxes                   |  117 |     0 |    127100 |  0.09 |
+| F7 Muxes                   |  109 |     0 |    127100 |  0.09 |
 | F8 Muxes                   |    0 |     0 |     63550 |  0.00 |
 +----------------------------+------+-------+-----------+-------+
 * Warning! The Final LUT count, after physical optimizations and full implementation, is typically lower. Run opt_design after synthesis, if not already completed, for a more realistic count.
@@ -58,9 +58,9 @@ Table of Contents
 | 0     |            _ |       Reset |            - |
 | 0     |          Yes |           - |            - |
 | 5     |          Yes |           - |          Set |
-| 283   |          Yes |           - |        Reset |
-| 154   |          Yes |         Set |            - |
-| 6442  |          Yes |       Reset |            - |
+| 292   |          Yes |           - |        Reset |
+| 156   |          Yes |         Set |            - |
+| 6440  |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -121,7 +121,7 @@ Table of Contents
 +------------+------+-------+-----------+-------+
 |  Site Type | Used | Fixed | Available | Util% |
 +------------+------+-------+-----------+-------+
-| BUFGCTRL   |    1 |     0 |        32 |  3.12 |
+| BUFGCTRL   |    1 |     0 |        32 |  3.13 |
 | BUFIO      |    0 |     0 |        40 |  0.00 |
 | MMCME2_ADV |    0 |     0 |        10 |  0.00 |
 | PLLE2_ADV  |    0 |     0 |        10 |  0.00 |
@@ -155,16 +155,16 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| FDRE     | 6442 |        Flop & Latch |
-| LUT6     |  850 |                 LUT |
-| LUT3     |  515 |                 LUT |
-| LUT5     |  414 |                 LUT |
-| FDCE     |  283 |        Flop & Latch |
-| LUT4     |  221 |                 LUT |
-| LUT2     |  181 |                 LUT |
-| FDSE     |  154 |        Flop & Latch |
+| FDRE     | 6440 |        Flop & Latch |
+| LUT6     |  807 |                 LUT |
+| LUT3     |  453 |                 LUT |
+| LUT5     |  411 |                 LUT |
+| LUT4     |  305 |                 LUT |
+| FDCE     |  292 |        Flop & Latch |
+| FDSE     |  156 |        Flop & Latch |
+| LUT2     |  134 |                 LUT |
 | SRL16E   |  132 |  Distributed Memory |
-| MUXF7    |  117 |               MuxFx |
+| MUXF7    |  109 |               MuxFx |
 | RAMD32   |   96 |  Distributed Memory |
 | CARRY4   |   40 |          CarryLogic |
 | RAMS32   |   32 |  Distributed Memory |

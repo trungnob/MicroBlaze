@@ -3,7 +3,7 @@
 # 
 # Vivado(TM)
 # runme.sh: a Vivado-generated Runs Script for UNIX
-# Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+# Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
 # 
 
 echo "This script was generated under a different operating system."
@@ -11,9 +11,9 @@ echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executi
 exit
 
 if [ -z "$PATH" ]; then
-  PATH=c:/NIFPGA/programs/Vivado2014_4/ids_lite/ISE/bin/nt64;c:/NIFPGA/programs/Vivado2014_4/ids_lite/ISE/lib/nt64:c:/NIFPGA/programs/Vivado2014_4/bin
+  PATH=c:/NIFPGA/programs/Vivado2015_4/ids_lite/ISE/bin/nt64;c:/NIFPGA/programs/Vivado2015_4/ids_lite/ISE/lib/nt64:c:/NIFPGA/programs/Vivado2015_4/bin
 else
-  PATH=c:/NIFPGA/programs/Vivado2014_4/ids_lite/ISE/bin/nt64;c:/NIFPGA/programs/Vivado2014_4/ids_lite/ISE/lib/nt64:c:/NIFPGA/programs/Vivado2014_4/bin:$PATH
+  PATH=c:/NIFPGA/programs/Vivado2015_4/ids_lite/ISE/bin/nt64;c:/NIFPGA/programs/Vivado2015_4/ids_lite/ISE/lib/nt64:c:/NIFPGA/programs/Vivado2015_4/bin:$PATH
 fi
 export PATH
 
@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD=`dirname "$0"`
+HD_PWD='C:/Users/trtran/MicroBlaze/mb-DMAboot/vivado/workingfolders/mbDMAboot_example/mbDMAboot_example.runs/simpledesign_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log simpledesign.vds -m64 -mode batch -messageDb vivado.pb -source simpledesign.tcl
+EAStep vivado -log simpledesign.vds -m64 -mode batch -messageDb vivado.pb -notrace -source simpledesign.tcl
