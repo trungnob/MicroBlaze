@@ -17,7 +17,7 @@
 </SimulationModel>
  	</TopLevelEntityAndArchitecture>
   
-  <SupportedDeviceFamilies>Kintex-7
+  <SupportedDeviceFamilies>Zynq
 </SupportedDeviceFamilies>
   
   <InterfaceList>
@@ -185,14 +185,14 @@
     </Interface>
   </InterfaceList>
   <ImplementationList>
-    <Path Name="C:\pe\user\trtran\MicroblazeProject\Examples\mb-DMAboot\vivado\workingfolders\mbDMAboot_example\mbDMAboot_example.srcs\sources_1\bd\simpledesign\hdl\simpledesign_wrapper.vhd">
+    <Path Name="..\..\vivado\workingfolders\mbDMAboot_example\mbDMAboot_example.srcs\sources_1\bd\simpledesign\hdl\simpledesign_wrapper.vhd">
       <TopLevel/>
       <MD5>6e9b007dc359e3e5d6c8e6148ca2c2c3</MD5>
       <SimulationFileList>
         <SimulationModelType>Same as synthesis</SimulationModelType>
     </SimulationFileList> 
 </Path>
-    <Path Name="C:\pe\user\trtran\MicroblazeProject\Examples\mb-DMAboot\vivado\workingfolders\mbDMAboot_example\mbDMAboot_example.runs\simpledesign_synth_1\simpledesign.dcp">
+    <Path Name="..\..\vivado\workingfolders\mbDMAboot_example\mbDMAboot_example.runs\simpledesign_synth_1\simpledesign.dcp">
   
       <MD5>949622cba044c202ee287afe9dcd1378</MD5>
       <SimulationFileList>
